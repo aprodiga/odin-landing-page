@@ -1,8 +1,18 @@
 .header {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
     padding: 0 100px 75px;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.header,
+.quote-section,
+.footer {
+    margin: -10px;
 }
 
 .nav-bar {
@@ -18,7 +28,8 @@
 .nav-bar h1,
 .hero-section-text h1,
 button,
-.call-to-action-text h2 {
+.call-to-action-text h2,
+.footer {
     color: #F9FAF8;
 }
 
@@ -129,4 +140,11 @@ button,
     border-style: solid;
     border-color: #F9FAF8;
     
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
 }
