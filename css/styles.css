@@ -155,7 +155,10 @@ button:hover {
 .call-to-action button {
     border-style: solid;
     border-color: #F9FAF8;
-    
+}
+
+button:active {
+    transform: translateY(2px);
 }
 
 .footer {
