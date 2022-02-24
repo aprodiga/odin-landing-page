@@ -28,14 +28,13 @@
 .nav-bar h1,
 .hero-section-text h1,
 button,
-.call-to-action-text h2,
+.call-to-action-text,
 .footer {
     color: #F9FAF8;
 }
 
 .nav-bar a,
-.hero-section-text p,
-.call-to-action-text p {
+.hero-section-text p {
     font-size: 18px;
     color: #E5E7EB;
 }
