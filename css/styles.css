@@ -47,6 +47,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -77,6 +81,11 @@ button {
 button,
 .call-to-action {
     background-color: #3882F6;
+}
+
+button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
 }
 
 .hero-section img {
