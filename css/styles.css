@@ -89,3 +89,20 @@ button {
     height: 175px;
     border-radius: 8px;
 }
+
+.quote-section {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 40px 150px;
+}
+
+.quote-section blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-section figcaption {
+    text-align: right;
+}
