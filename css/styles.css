@@ -17,12 +17,14 @@
 
 .nav-bar h1,
 .hero-section-text h1,
-button {
+button,
+.call-to-action-text h2 {
     color: #F9FAF8;
 }
 
 .nav-bar li,
-.hero-section-text p {
+.hero-section-text p,
+.call-to-action-text p {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -51,8 +53,12 @@ button {
     border: none;
     border-radius: 8px;
     padding: 5px 24px;
-    background-color: #3882F6;
     font-weight: 800;
+}
+
+button,
+.call-to-action {
+    background-color: #3882F6;
 }
 
 .hero-section img {
@@ -108,4 +114,19 @@ button {
 
 .quote-section figcaption {
     text-align: right;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    padding: 20px 125px;
+    border-radius: 8px;
+}
+
+.call-to-action button {
+    border-style: solid;
+    border-color: #F9FAF8;
+    
 }
