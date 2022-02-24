@@ -67,6 +67,12 @@ button {
     padding-bottom: 75px;
 }
 
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
 .info-section-images {
     display: flex;
     justify-content: space-evenly;
