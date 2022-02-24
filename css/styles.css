@@ -13,6 +13,11 @@
 
 .nav-bar h1 {
     font-size: 24px;
+}
+
+.nav-bar h1,
+.hero-section-text h1,
+button {
     color: #F9FAF8;
 }
 
@@ -40,7 +45,6 @@ ul {
 .hero-section-text h1 {
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8;
 }
 
 button {
@@ -48,11 +52,34 @@ button {
     border-radius: 8px;
     padding: 5px 24px;
     background-color: #3882F6;
-    color: #F9FAF8;
     font-weight: 800;
 }
 
 .hero-section img {
     width: 475px;
     height: auto;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.info-section-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 150px 0;
+}
+
+.info-section-image img,
+.info-section-image p {
+    width: 175px;
+}
+
+.info-section-image img {
+    object-fit: cover;
+    height: 175px;
+    border-radius: 8px;
 }
